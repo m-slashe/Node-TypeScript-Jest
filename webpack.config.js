@@ -1,9 +1,9 @@
-const path = require("path");
-
 module.exports = {
+  mode: 'development',
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
   },
+  target: 'node',
   module: {
     rules: [
       {
